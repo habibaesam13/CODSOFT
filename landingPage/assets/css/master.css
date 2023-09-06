@@ -1,0 +1,1034 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Josefin+Sans&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=DM+Serif+Display&family=Josefin+Sans&family=Rubik:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'name';
+    src: url(../fonts/aAbstractGroovy.otf);
+}
+
+.first-nav {
+    background-color: rgb(118, 27, 27);
+    padding-bottom: 15px;
+}
+
+.first-nav-part1 {
+    margin-left: 5%;
+    padding-top: 1%;
+
+}
+
+.first-nav-part1 a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.first-nav-part1 a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.first-nav-part2 {
+    margin-left: 15%;
+}
+
+.forIcon {
+    margin-left: 55%;
+    margin-top: -20px;
+}
+
+.bag-icon {
+    font-size: 18px;
+    color: white;
+}
+
+.icon-desc {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 57%;
+    margin-top: -20px;
+}
+
+.icon-desc2 {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 62.9%;
+    margin-top: -17px;
+}
+
+.line {
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    margin-left: 61.9%;
+    margin-top: -17px;
+
+}
+
+.sub {
+    margin-top: -17px;
+    margin-left: 70%;
+}
+
+.btn {
+    width: 80px;
+    height: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+.btn1 {
+    border: none;
+    background-color: rgb(118, 27, 27);
+    color: white;
+}
+
+.btn2 {
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: rgb(118, 27, 27);
+}
+
+.sec-nav {
+    background-color: brown;
+    padding-bottom: 15px;
+}
+
+.logo {
+    margin-left: 8%;
+    padding-top: 10px;
+}
+
+.logo-p1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'name';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.logo-p2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'name';
+    color: black;
+    margin-left: 7.5%;
+    margin-top: -1.5%;
+    letter-spacing: .2em;
+}
+
+
+
+.nav-links {
+    margin-left: 55%;
+    margin-top: -20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 3%;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* sec 1 */
+
+.sec1 {
+    background-color: rgb(201, 196, 189);
+    padding-bottom: 15%;
+}
+
+.main-product-pho {
+    margin-top: -3%;
+    width: 550px;
+}
+
+.main-product-desc {
+    margin-left: 45%;
+    margin-top: -20%;
+}
+
+h3 {
+    color: rgb(218, 130, 71);
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgb(17, 17, 206);
+    font-family: 'name';
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+
+h4 {
+    color: rgb(218, 130, 71);
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.browse-btn {
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: rgb(218, 130, 71);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 2px 2px rgb(118, 27, 27);
+    font-weight: bold;
+}
+
+.add-btn {
+    margin-left: 7%;
+}
+
+.browse-btn:hover {
+    transform: scale(1.2);
+}
+
+/* sec 2 */
+.imgs-ph1 {
+    margin-left: 25%;
+    margin-top: 2%;
+
+}
+
+.imgs {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.imgs-ph3 {
+    width: 350px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.on-photo-3 {
+    margin-top: -5%;
+    margin-left: 20%;
+    text-shadow: 1px 1px white;
+}
+
+#on-photo3 {
+    font-family: 'name';
+    font-size: 25px;
+}
+
+.on-photo {
+    margin-top: -22%;
+    margin-left: 9%;
+
+}
+
+.ani {
+    transform: .5px .5px;
+    position: relative;
+    animation: moveAnimation 1s infinite alternate;
+    /* Animation setup */
+}
+
+@keyframes moveAnimation {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(20px);
+    }
+}
+
+#on-photo-p1 {
+    margin-left: -.5%;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: .2em;
+    text-transform: capitalize;
+    text-shadow: .5px .5px gray;
+}
+
+#on-photo-p2 {
+    letter-spacing: .1em;
+    padding-top: 10px;
+    margin-left: 1%;
+    font-family: 'name';
+    color: rgb(40, 215, 218);
+}
+
+.view-btn {
+    margin-top: 14.5%;
+    margin-left: 7.5%;
+    width: 180px;
+    height: 30px;
+    border: none;
+    letter-spacing: .1em;
+    font-family: fantasy;
+    text-transform: uppercase;
+    background-color: rgb(40, 215, 218);
+    color: black;
+}
+
+.view-btn:hover {
+    background-color: #463e3e;
+    color: white;
+}
+
+.imgs-ph2 {
+    width: 450px;
+    margin-left: 49%;
+    margin-top: -17%;
+
+}
+
+.img2 {
+
+    width: 450px;
+    border-radius: 5px;
+}
+
+.on-photo2 {
+    margin-top: -90%;
+    margin-left: 50%;
+}
+
+#on-photo2-p1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    text-transform: capitalize;
+}
+
+#on-photo2-p2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.discover-btn {
+    margin-top: 5%;
+    margin-left: 59%;
+    width: 130px;
+    height: 40px;
+    background-color: #1d1b1b;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 85%;
+    border-radius: 5px;
+}
+
+.discover-btn:hover {
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.menu {
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+.menu-options {
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.menu-options a {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5%;
+    text-decoration: none;
+    color: rgb(174, 180, 185);
+    letter-spacing: .2em;
+}
+
+.menu-options a:hover {
+    color: rgb(118, 27, 27);
+    text-shadow: .5px 1px gray;
+}
+
+.ph1 {
+    margin-top: 25px;
+    margin-left: 15%;
+}
+
+.pho-menu {
+    width: 250px;
+    margin-top: .5%;
+}
+
+.secPho {
+    margin-left: 35%;
+    margin-top: -19.3%;
+}
+
+.thirdPho {
+    margin-left: 55%;
+    margin-top: -19.3%;
+}
+
+.fourthPho {
+    margin-left: 75%;
+    margin-top: -19.3%;
+}
+
+.pho-menu:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.img-det-p1 {
+    margin-top: -23%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.price {
+    color: rgb(218, 130, 71);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.old-price {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.discount-percentage {
+    background-color: rgb(218, 130, 71);
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 14.5%;
+    margin-top: -3%;
+}
+
+.img-det-p2 {
+    margin-top: 15.9%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.category {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #3f3e3e;
+}
+
+.shoes-name {
+    font-family: sans-serif;
+    color: #6c757d;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.img-det-img2 {
+    margin-top: -30%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.img-det-p2-img2 {
+    margin-top: 21%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.price-not-disc {
+    color: #3f3e3e;
+}
+
+.img-det-p1-img3 {
+    margin-top: -43%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.img3-dis {
+    margin-left: 28.5%;
+    margin-top: -5.5%;
+}
+
+.img3-shoes {
+    margin-top: 30%;
+}
+
+.img-det-img4 {
+    position: relative;
+    margin-top: -77%;
+    margin-left: 2%;
+}
+
+.img-det-p2-img4 {
+    position: relative;
+    margin-top: 53%;
+    margin-left: 2%;
+}
+
+.img-det-img5 {
+    position: relative;
+    margin-top: -23%;
+    margin-left: 1%;
+}
+
+.img-det-p2-img5 {
+    position: relative;
+    margin-top: 16%;
+    margin-left: 1%;
+}
+
+.img-det-p1-img6 {
+    position: relative;
+    margin-top: -30%;
+    margin-left: 1%;
+}
+
+.img6-dis {
+    margin-left: 19.4%;
+    margin-top: -4%;
+}
+
+.img6-shoes {
+    margin-top: 21%;
+}
+
+.img-det-img7 {
+    margin-top: -43%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.img-det-p2-img7 {
+    position: relative;
+    margin-top: 28.5%;
+    margin-left: 1%;
+}
+
+.img-det-img8 {
+    margin-top: -73%;
+    margin-left: 2%;
+    position: relative;
+}
+
+.img-det-p2-img8 {
+    margin-top: 50%;
+    margin-left: 2%;
+    position: relative;
+}
+
+.companies {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.companies img {
+    margin-left: 5%;
+}
+
+.company-img {
+    width: 80px;
+}
+
+.fav-p1 {
+    color: rgb(118, 27, 27);
+    margin-top: 5%;
+    margin-left: 25%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 1px 1px black;
+}
+
+.line2 {
+    background-color: #6c757d;
+    width: 3px;
+    height: 50px;
+    display: block;
+    margin-left: 45%;
+    margin-top: -2.5%;
+}
+
+.fav-p2 {
+    margin-left: 46%;
+    margin-top: -2.5%;
+    color: #6c757d;
+    margin-bottom: 2%;
+}
+
+/* third section */
+.third-section {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    width: 1000px;
+}
+
+.third-section-p1 {
+    width: 450px;
+}
+
+.third-section-p2 {
+    height: 300px;
+    background-color: rgb(121, 38, 38);
+    width: 550px;
+    margin-left: 45%;
+    margin-top: -30.3%;
+}
+
+.off-p1 {
+    padding-top: 5%;
+    margin-left: 40%;
+    color: rgb(228, 219, 214);
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.off-p2 {
+    margin-left: 45%;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(193, 187, 187);
+}
+
+.off-p3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 38%;
+    font-size: 30px;
+    margin-top: 1.5%;
+}
+
+.off-p5 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 30%;
+    font-size: 25px;
+    margin-top: 1.5%;
+}
+
+.off-p6 {
+    margin-top: 1.5%;
+    color: #8e9194;
+    margin-left: 40%;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.shop-btn {
+    margin-top: 5%;
+    margin-left: 43%;
+
+}
+
+/* start fourth section */
+.new-arrivals {
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(118, 27, 27);
+    padding-top: 2%;
+    margin-left: 30%;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.photos {
+    margin-top: 1.5%;
+    margin-left: 20%;
+    margin-bottom: 7%;
+}
+
+.new-arrivals-pho {
+    width: 250px;
+}
+
+.photo-desc-p1 {
+    position: relative;
+    color: rgb(102, 100, 100);
+    margin-top: 1%;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 1.5%;
+}
+
+.photo-desc-p2 {
+    position: relative;
+    margin-top: .5%;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 1.5%;
+}
+
+.photo-desc-p3 {
+    position: relative;
+    margin-top: .5%;
+    font-size: 12px;
+    color: gray;
+    font-family: sans-serif;
+    margin-left: 1.5%;
+}
+
+.icon-cont {
+    margin-top: .5%;
+    margin-left: 1%;
+}
+
+.icon {
+    color: rgb(118, 27, 27);
+
+}
+
+.pho2-3sec {
+    margin-left: 30%;
+    margin-top: -35%;
+}
+
+.pho3-3sec {
+    margin-left: 60%;
+    margin-top: -34.5%;
+}
+
+.pho-3sec img:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/* start 5th section */
+.head1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 35%;
+    text-shadow: .5px .5px rgb(118, 27, 27);
+}
+
+.head2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 40%;
+    text-shadow: .5px .5px rgb(118, 27, 27);
+    margin-bottom: 2%;
+}
+
+.box {
+    margin-left: 15%;
+    background-color: rgb(240, 230, 230);
+    padding-bottom: 5%;
+    width: 350px;
+    margin-bottom: 5%;
+}
+
+.quality-icons {
+    padding-top: 12%;
+    margin-left: 45%;
+    display: flex;
+    font-size: 45px;
+    color: rgb(70, 68, 68);
+}
+
+.circle {
+    background-color: rgb(194, 235, 235);
+    width: 50px;
+    height: 50px;
+    margin-top: -13%;
+    border-radius: 50%;
+    margin-left: 38%;
+}
+
+.box-desc {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 33%;
+}
+
+.box-desc2 {
+    margin-top: 2%;
+    margin-left: 15%;
+    color: gray;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    background-color: rgb(231, 228, 228);
+    margin-left: 42%;
+    margin-top: -22%;
+}
+
+.circle2 {
+    background-color: rgb(226, 201, 226);
+}
+
+.box3 {
+    background-color: whitesmoke;
+    margin-left: 70%;
+    margin-top: -22%;
+}
+
+.circle3 {
+    background-color: rgb(183, 136, 183);
+}
+
+
+/* start for footer */
+
+.footer-p1 {
+    background-color: rgb(218, 130, 71);
+    padding-bottom: 3%;
+}
+
+.message {
+    padding-top: 1%;
+    margin-left: 15%;
+}
+
+.message-icon {
+    color: white;
+    font-size: 35px;
+}
+
+.foot-head {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+
+.foot-sub {
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20%;
+    margin-top: .5%;
+}
+
+.footer-p2 {
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+.quote {
+    padding-top: 2%;
+    margin-left: 5%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn-qoute {
+    margin-top: 2%;
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 2px 2px 2px rgb(118, 27, 27);
+    background-color: rgb(218, 130, 71);
+}
+
+.useful-links {
+    margin-left: 40%;
+    margin-top: -10.5%;
+}
+
+.ul-name {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.use-linkes {
+    list-style: none;
+}
+
+.use-linkes a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+li {
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.kotshi {
+    margin-top: 15px;
+    width: 25px;
+    margin-right: 7px;
+}
+
+.contact-us {
+    margin-left: 65%;
+    margin-top: -19%;
+    margin-bottom: -10.5%;
+}
+
+.contact-icons {
+    margin-top: 5%;
+    color: white;
+    size: 20px;
+    display: flex;
+}
+
+.icon-det {
+    color: white;
+    margin-left: 5%;
+    margin-top: -5%;
+    font-family: sans-serif;
+}
+
+.icon-det2 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: -3.5%;
+}
+
+.line-hr {
+    margin-left: 15%;
+    margin-top: 25%;
+    width: 1000px;
+    height: 2px;
+    background-color: rgb(218, 130, 71);
+}
+
+.sub-foot {
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+.sub2 {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 4%;
+    margin-top: -2%;
+}
+
+.sub-box {
+    margin-top: -3%;
+    margin-left: 35%;
+}
+
+input {
+    width: 550px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    text-indent: 20px;
+    font-weight: bolder;
+    color: rgb(179, 172, 172);
+}
+
+.sub-btn {
+    border: none;
+    background-color: rgb(118, 27, 27);
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: -19%;
+}
+
+.line-hr2 {
+    margin-top: 3%;
+}
+
+.CR {
+    color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.line-fo {
+    margin-left: 10%;
+}
+
+.copy-line {
+    margin-left: 11%;
+    margin-top: -1.3%;
+}
+
+.line-fo2 {
+    margin-left: 18%;
+}
+
+.copy-line-p3 {
+    margin-left: 19%;
+    margin-top: -1.3%;
+}
+
+.social-links {
+    margin-left: 55%;
+    margin-top: -1%;
+}
+
+.social {
+    color: white;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.social-links i:hover {
+    color: rgb(118, 27, 27);
+}
